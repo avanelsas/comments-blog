@@ -1,1 +1,2 @@
-[]
+[{:id "3adeeb0d-9737-4061-9e6c-be14524e77e7" :reply-to nil :name "Alexander" :moment "2026-10-30T10:24:43.589Z" :text "My first comment"}
+ {:id "a158b733-b92a-46e9-a1c6-c83deb5bb8cf" :reply-to "3adeeb0d-9737-4061-9e6c-be14524e77e7" :author? true :moment "2026-10-30T10:25:27.640Z" :text "A great first comment"}]

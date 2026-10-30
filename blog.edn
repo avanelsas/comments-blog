@@ -48,4 +48,5 @@
  ;; PNG, JPEG or GIF beside this file. A square one of 400x400 is shown small beside
  ;; the text, a wide one of 1200x630 beneath it.
  ;; :link-preview "link-preview.jpg"
+ :comments {:script "https://script.google.com/macros/s/AKfycby0HDVxmB15v6TIIbvLLCExwfIFE8vzMBNRthCa66tyCLcHH5R-ScQM3xGTetkijDoeew/exec" :on? true}
  }

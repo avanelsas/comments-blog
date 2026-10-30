@@ -1,0 +1,67 @@
+/* The Magazine blog template: Journal, with the posts of a list as cards in a grid. */
+
+.magazine .post,
+.magazine .archive,
+.magazine .not-found {
+  margin: 0 auto;
+}
+
+/* A post opens on its cover, above its title, as its card does. */
+.magazine .opening {
+  display: flex;
+  flex-direction: column;
+}
+
+.magazine .post-cover {
+  order: -1;
+}
+
+.magazine .post-cover x-image {
+  border-radius: var(--x-radius-lg, 1rem);
+}
+
+.magazine .entries {
+  max-width: none;
+}
+
+/* The card fills its cell, so the cards of a row are as tall as each other. */
+.magazine .card {
+  position: relative;
+  height: 100%;
+}
+
+.magazine .card::part(base) {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* The card that leads spans two columns and two rows. */
+.magazine .lead h2 {
+  font-size: 1.75rem;
+}
+
+.magazine .lead .summary {
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+}
+
+/* `x-bento-grid` has a fixed number of columns, and `x-bento-item` writes its span into its
+   own style. A narrower window sets the columns on the grid's part, and a single column
+   takes the span away. */
+@media (max-width: 900px) {
+  .magazine .cards::part(base) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .magazine .cards::part(base) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .magazine .cards > x-bento-item {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+}

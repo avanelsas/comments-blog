@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>A blog with comments</title>
+  <id>https://avanelsas.github.io/comments-blog/</id>
+  <link href="https://avanelsas.github.io/comments-blog/"/>
+  <link rel="self" href="https://avanelsas.github.io/comments-blog/feed.xml"/>
+  <updated>2026-10-30T11:06:22+01:00</updated>
+  <author>
+    <name>Alexander van Elsas</name>
+  </author>
+  <entry>
+    <title>My first blog post</title>
+    <link href="https://avanelsas.github.io/comments-blog/my-first-blog-post/"/>
+    <id>https://avanelsas.github.io/comments-blog/my-first-blog-post/</id>
+    <updated>2026-10-30T11:06:22+01:00</updated>
+    <summary>This is my first blog post.</summary>
+  </entry>
+</feed>

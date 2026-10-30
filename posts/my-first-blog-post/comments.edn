@@ -1,2 +1,1 @@
-[{:id "915de1fd-976d-4053-ae3d-db6b9cd0d240" :reply-to nil :name "Alexander" :moment "2026-10-30T10:17:13.722Z" :text "My first comment"}
- {:id "ef15db18-3e01-4b7c-9df6-6574c9dfa873" :reply-to "915de1fd-976d-4053-ae3d-db6b9cd0d240" :author? true :moment "2026-10-30T10:19:26.085Z" :text "\"this is a great firt comment\""}]
+[{:id "915de1fd-976d-4053-ae3d-db6b9cd0d240" :reply-to nil :name "Alexander" :moment "2026-10-30T10:17:13.722Z" :text "My first comment"}]

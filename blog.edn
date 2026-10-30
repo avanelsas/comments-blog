@@ -1,0 +1,51 @@
+{:title            "A blog with comments"
+ :language         "en"
+ :template         :journal
+ :available-themes ["ocean"]
+ :per-page         10
+
+ ;; The line "Powered by BareBlog" at the bottom of every page. false leaves it out.
+ :powered-by-footer true
+
+ ;; The titles of the posts and the pages, also in a list, filled with a gradient of the
+ ;; colours of the theme. Only true fills them.
+ :gradient-titles  false
+
+ ;; The colours of the theme, drifting behind the navbar. Only true shows them.
+ :navbar-colors    false
+
+ ;; The colours of the theme, still, behind the whole page. Only true shows them.
+ :page-colors      true
+
+ ;; A texture over the background of every page, under the text: :grain, a fine
+ ;; noise as of film, :paper, soft blotches and thin fibres as of paper, or :none.
+ :texture          :grain
+
+ ;; The logo in the navbar, in place of the title: an SVG, PNG, JPEG, GIF or WebP
+ ;; beside this file. One name is the logo in both modes of the theme. A map gives one
+ ;; for each, and the one under :dark is shown when the theme is dark.
+ ;; :logo {:light "logo.svg" :dark "logo-dark.svg"}
+
+ ;; The icon of the blog in the tab of a browser: an SVG, PNG or ICO beside this file,
+ ;; one name or a map as for the logo.
+ ;; :favicon {:light "favicon.svg" :dark "favicon-dark.svg"}
+
+ ;; The font of the running text of the posts and the lists. bareblog font "Literata"
+ ;; fetches a font of Google Fonts into the blog and sets it here, so that every
+ ;; reader sees it. Any other name shows for a reader who has the font installed.
+ ;; The font of the theme when left out.
+ ;; :font "Literata"
+
+ ;; Set these two before you publish.
+
+ ;; Who writes the blog, in its feed. The title of the blog when left out.
+  :author "Alexander van Elsas"
+
+ ;; Where the blog is published. Every link of a published page starts there.
+  :address "https://avanelsas.github.io/comments-blog/"
+
+ ;; The picture that a chat shows with a link to a page that has none of its own: a
+ ;; PNG, JPEG or GIF beside this file. A square one of 400x400 is shown small beside
+ ;; the text, a wide one of 1200x630 beneath it.
+ ;; :link-preview "link-preview.jpg"
+ }
